@@ -1,3 +1,5 @@
+import CurrentWeather from "./componets/CurrentWeather";
+
 function App() {
   return (
     <div>
@@ -5,14 +7,5 @@ function App() {
     </div>
   );
 }
-
-// 현재 날씨
-const CurrentWeather = () => {
-  return (
-    <div>
-      <h1>Current Weather</h1>
-    </div>
-  );
-};
 
 export default App;
